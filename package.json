@@ -1,10 +1,14 @@
 {
   "name": "generator-phaser-simple",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple Phaser setup",
   "keywords": [
     "yeoman-generator"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mandarinx/generator-phaser-simple"
+  },
   "dependencies": {
     "change-case": "^2.1.6",
     "yeoman-generator": "^0.18.4"
