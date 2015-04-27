@@ -1,0 +1,19 @@
+{
+  "name": "<%= projectname %>",
+  "version": "0.0.1",
+  "description": "A Phaser game",
+  "main": "./src/main.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "build:js": "node browserify.js > ./public/<%= projectname %>.js",
+    "watch:js": "watch 'npm run build:js' ./src/",
+    "dev": "parallelshell 'npm run watch:js' 'node index.js'"
+  },
+  "author": "You",
+  "license": "ISC",
+  "repository" : {
+    "type" : "git",
+    "url" : "http://github.com/you/<%= projectname %>.git"
+  }
+}

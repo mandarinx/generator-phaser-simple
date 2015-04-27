@@ -1,0 +1,3 @@
+<%= projectname %>
+===
+A Phaser game

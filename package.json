@@ -1,0 +1,12 @@
+{
+  "name": "generator-phaser-simple",
+  "version": "0.0.1",
+  "description": "A simple Phaser setup",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "change-case": "^2.1.6",
+    "yeoman-generator": "^0.18.4"
+  }
+}
