@@ -2,7 +2,7 @@
 // include libs in a runnable build.
 // I want to create a npm task that wraps the public dir and any necessary
 // external libraries in a package and deploys it to e.g. GitHub pages.
-// An index.html file should also be genrated to make each playable
+// An index.html file should also be generated to make each playable
 // build easily accessible.
 
 // Route config:
